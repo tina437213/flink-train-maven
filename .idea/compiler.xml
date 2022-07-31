@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="test" />
+        <module name="ride-cleansing" />
+        <module name="hourly-tips" />
+        <module name="rides-and-fares" />
+        <module name="long-ride-alerts" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sth" target="8" />
+      <module name="sth1" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
